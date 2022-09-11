@@ -1,0 +1,84 @@
+@media screen and (max-width: 550px) {
+  .menu-icon i {
+    display: block;
+    font-size: 30px;
+  }
+  .list {
+    display: none;
+  }
+  nav div:last-child {
+    display: none;
+  }
+  nav {
+    padding: 15px;
+    height: 10vh;
+  }
+  .line {
+    border-bottom: 2px solid #FFFFFF;
+    height: 2px;
+    width: 250px;
+    position: absolute;
+    right: 0px;
+  }
+  main {
+    flex-direction: column;
+  }
+  .left-section {
+    width: unset;
+    padding: 30px 50px;
+  }
+  .right-section {
+    width: unset;
+  }
+  .left-section h1 {
+    font-size: 40px;
+    text-align: center;
+  }
+  .left-section .lm-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .left-section button {
+    margin-top: 20px;
+  }
+  .content-one {
+    position: unset;
+    padding: 10px;
+    font-size: 18px;
+  }
+  .content-one .icon-bg,
+  p {
+    margin: 10px 0px;
+  }
+  .content-two .icon-bg,
+  p {
+    margin: 10px 0px;
+  }
+  .icon-bg {
+    height: 30px;
+    width: 60px;
+  }
+  .icon-bg img {
+    height: 25px;
+  }
+  .right-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 30px;
+  }
+  .content-two {
+    padding: 10px;
+    font-size: 18px;
+    position: unset;
+  }
+  .line-one,
+  .line-two {
+    display: none;
+  }
+  .circle-one,
+  .circle-two {
+    display: none;
+  }
+}
